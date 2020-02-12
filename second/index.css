@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 25px;
+}
+
+.header {
+  width: 100%;
+  border: 5px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.purple-rec {
+  height: 150px;
+  width: 50px;
+  background-color: purple;
+  display: inline-block;
+}
+
+.green-rec {
+  height: 200px;
+  width: 650px;
+  background-color: green;
+  display: inline-block;
+  margin: 0 50px;
+}
+
+.blue-circle {
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+  background-color: teal;
+  display: inline-block;
+}
+
+.main-rec {
+  border: 5px dotted black;
+  margin: 20px 0;
+  height: 300px;
+  padding: 55px;
+  box-sizing: border-box;
+}
+
+.yellow-rec {
+  height: 100%;
+  background-color: rgb(250, 250, 186);
+  
+}
+
+.bot-rec {
+  width: 50%;
+  border: 1px solid rgb(187, 187, 187);
+  padding: 100px;
+  margin: 25px auto;
+  box-sizing: border-box;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+
+}
+  
+.box-shadow {
+  width: 100%;
+  height: 200px;
+  background-color: lemonchiffon;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.bot-rec h1 {
+    width: 100%;
+    text-align: center;
+    color: blue;
+    letter-spacing: 20px;
+  
+  
+}
